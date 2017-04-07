@@ -1,0 +1,39 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+source ~/.config/nvim/vimrc/lightline.conf
+'''
+
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+hook_add = '''
+source ~/.config/nvim/vimrc/denite.conf
+'''
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_add = '''
+source ~/.config/nvim/vimrc/nerdtree.conf
+'''
+
+[[plugins]]
+repo = 'w0ng/vim-hybrid'
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = '''
+source ~/.config/nvim/vimrc/deoplete.conf
+'''
+
+[[plugins]]
+repo = 'KeitaNakamura/highlighter.nvim'
+hook_add = '''
+source ~/.config/nvim/vimrc/highlighter.conf
+'''
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
