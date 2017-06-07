@@ -37,3 +37,8 @@ source ~/.config/nvim/vimrc/highlighter.conf
 [[plugins]]
 repo = 'tpope/vim-fugitive'
 
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+hook_add = '''
+source ~/.config/nvim/vimrc/indentline.conf
+'''

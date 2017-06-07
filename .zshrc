@@ -129,4 +129,5 @@ PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -
 export XDG_CONFIG_HOME=~/.config
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[[ -z "$TMUX" && ! -z "$PS1" ]] && tmux
 
